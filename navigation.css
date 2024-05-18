@@ -1,12 +1,14 @@
 body{
 height:2000px;
+overflow-x:hidden ;
 
 }
 .container1{
   display: flex;
+  justify-content: space-between;
   background-color: #4169E1;
   align-items: center;
-  height: 75px;
+  height: 4%;
   width: 100%;
 }
 p{
@@ -20,14 +22,19 @@ p{
   width: 20px;
 }
 .logo{
-  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
 }
 .logo_img{
-  width: 50px;
+  width: 70px;
+
 }
 .contain_img,.container_p{
   display: inline-block;
 }
+
 .container_p{
   width: 140px;
   margin-top: -2px;
@@ -36,7 +43,6 @@ p{
   width: 200px;
   height: 40px;
   display: flex;
-  padding-left: 20px;
 }
 .home{
   align-items: center;
@@ -44,14 +50,14 @@ p{
 .text3{
   display: flex;
   align-items: center;
-  margin-left: 600px;
-  justify-content:space-between;
+  /* margin-left: 600px; */
+  justify-content:space-around;
+  align-items: flex-start;
   width: 350px;
 }
 .text2{
   display: flex;
   align-items: center;
-  margin-left: 520px;
   
   width: 200px;
 }
