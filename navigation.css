@@ -1,23 +1,13 @@
-body{
-height:2000px;
-overflow-x:hidden ;
 
-}
 .container1{
   display: flex;
   justify-content: space-between;
   background-color: #4169E1;
   align-items: center;
-  height: 4%;
+  height: 100px;
   width: 100%;
 }
-p{
-  color: white;
-  font-size: 15px;
-  font-family: "Roboto",sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+
 .img_sig_up{
   width: 20px;
 }

@@ -1,6 +1,6 @@
 .container2{
   background-color: #4169E1;
-  height: 25%;
+  height: 480px;
   display: flex;
   flex-direction: column;
 }
@@ -10,9 +10,9 @@
 
 .sub_div1{
   display: flex;
-  justify-content:space-around ;
-  width: 400px;
-  padding-left: 30px;
+  justify-content:space-between ;
+  width: 500px;
+  padding-left: 70px;
 }
 .sub_div3{
   padding-right: 100px;

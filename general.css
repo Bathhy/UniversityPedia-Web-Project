@@ -1,0 +1,12 @@
+body{
+  height:2000px;
+  overflow-x:hidden ;
+  
+  }
+  p{
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
