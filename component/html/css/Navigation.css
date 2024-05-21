@@ -1,5 +1,5 @@
-
-.navigation{
+.navigation {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   background-color: #4169E1;
@@ -8,58 +8,67 @@
   width: 100%;
 }
 
-.img_sig_up{
+.img_sig_up {
   width: 20px;
 }
-.logo{
+
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 10px;
 }
-.logo_img{
+
+.logo_img {
   width: 70px;
 
 }
-.contain_img,.container_p{
+
+.contain_img,
+.container_p {
   display: inline-block;
 }
 
-.container_p{
+.container_p {
   width: 140px;
   margin-top: -2px;
 }
-.logo{
+
+.logo {
   width: 200px;
   height: 40px;
   display: flex;
 }
-.home{
+
+.home {
   align-items: center;
 }
-.text3{
+
+.text3 {
   display: flex;
   align-items: center;
   /* margin-left: 600px; */
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: flex-start;
   width: 350px;
 }
-.text2{
+
+.text2 {
   display: flex;
   align-items: center;
-  
+
   width: 200px;
 }
-.sign_up_container{
-  display:flex;
+
+.sign_up_container {
+  display: flex;
   width: 90px;
-  
+
   align-items: center;
 
 }
 
-.login{
+.login {
   border: 2px solid white;
   width: 75px;
   height: 45px;
@@ -70,7 +79,7 @@
   margin-right: 10px;
 }
 
-.div_image{
+.div_image {
   border-radius: 50%;
   width: 30px;
   height: 30px;
