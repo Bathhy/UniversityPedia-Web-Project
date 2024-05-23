@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&family=Poppins:wght@400;700&family=Roboto:wght@100;400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4;
+}
+ul {
+  list-style: none;
+}
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #4169e1;
+  color: white;
+  padding: 2rem 5% 2rem 5%;
+}
+.footer_left > h6 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.footer_middle > h6 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+/* Footer Left */
+.footer_left {
+  justify-content: center;
+  align-items: center;
+}
+.footer_left > nav_list {
+  list-style-type: none;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.footer_left .nav_list .footer_links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.footer_left .nav_list .footer_links a:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.fot_gap {
+  margin-left: 5px;
+}
+/* Footer Middle */
+.footer_middle {
+  justify-content: center;
+  align-items: center;
+}
+.footer_middle > nav_list {
+  list-style-type: none;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.footer_middle .nav_list .footer_links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.footer_middle .nav_list .footer_links a:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+/* Footer Right */
+.footer_right {
+  justify-content: center;
+  align-items: center;
+}
+.footer_right > h6 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
