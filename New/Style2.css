@@ -34,11 +34,11 @@ footer {
   justify-content: space-between;
 }
 .footer_left > h6 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 .footer_middle > h6 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 /* Footer Left */
@@ -53,12 +53,12 @@ footer {
   padding: 0;
   margin: 0;
 }
-.footer_left .nav_list .footer_links a {
+.footer_left .fot_nav_list .footer_links a {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
 }
-.footer_left .nav_list .footer_links a:hover {
+.footer_left .fot_nav_list .footer_links a:hover {
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -77,12 +77,12 @@ footer {
   padding: 0;
   margin: 0;
 }
-.footer_middle .nav_list .footer_links a {
+.footer_middle .fot_nav_list .footer_links a {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
 }
-.footer_middle .nav_list .footer_links a:hover {
+.footer_middle .fot_nav_list .footer_links a:hover {
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -92,12 +92,45 @@ footer {
   align-items: center;
 }
 .footer_right > h6 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
-
+.footer_right > nav_list {
+  list-style-type: none;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.footer_right .fot_nav_list .footer_links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.footer_right .fot_nav_list .footer_links a:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.footer_right_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer_right_logo > img {
+  width: 70px;
+  height: 70px;
+}
+/* gap */
+.fot_nav_list {
+  display: flex;
+  flex-direction: column;
+}
+.footer_links {
+  margin-bottom: 10px;
+}
 /* Footer Bottom */
-.footer-bottom {
+.footer_bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -115,4 +148,17 @@ footer {
 .footer_icon i {
   font-size: 30px;
   margin-right: 4rem;
+}
+.footer_bottom_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.span1 {
+  margin-bottom: 5px;
+  font-size: small;
+}
+.span2 {
+  font-weight: bold;
+  font-size: medium;
 }
