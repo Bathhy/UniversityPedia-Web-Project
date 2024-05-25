@@ -26,6 +26,7 @@ body {
 }
 
 .text-button {
+    text-align: center;
     background: none;
     border: none;
     color: #4169E1;
@@ -44,15 +45,33 @@ body {
     height: calc(500px + 10px);
     width: 45%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     overflow: auto;
     border-radius: 3%;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
+.scholarship-info-container {
+    background-color: #F0E9E8;
+    height: 500vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    border-radius: 4%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
 .rowbody {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
@@ -60,10 +79,23 @@ body {
 }
 
 .style-uniname {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
-.imageUni-container {
-    width: 20px;
+.style-uniname img {
+    max-width: 70px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.scholarship-list-container {
+    background-color: white;
+    height: 170px;
+    width: 90%;
+    overflow-y: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
 }
