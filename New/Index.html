@@ -68,6 +68,14 @@
       <div class="search">
         <div class="search_left">
           <i class="fa-solid fa-magnifying-glass"></i>
+          <form
+            action="/search"
+            method="GET"
+            class="search-box"
+            id="searchForm"
+          >
+            <input type="search" name="q" placeholder="Search..." required />
+          </form>
         </div>
         <div class="search_right">
           <button class="search_bt">SEARCH</button>

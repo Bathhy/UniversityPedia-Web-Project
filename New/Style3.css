@@ -1,4 +1,15 @@
 /* Search */
+.search_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input[type="search"] {
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+}
 .section2_search {
   display: flex;
   align-items: center;
