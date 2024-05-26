@@ -107,3 +107,50 @@
   background-color: #0000ff;
   transition: all o.2s;
 }
+/* Top Major */
+.top_major h5 {
+  justify-content: left;
+  font-size: 4rem;
+  color: #4169e1;
+  padding: 2rem 0 0 4rem;
+}
+.detail_major {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2rem 3rem;
+}
+.article_major {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4169e1;
+  color: white;
+  width: 95%;
+  height: 90%;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.major_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 5px;
+}
+.major_header img {
+  width: 50px;
+  height: auto;
+}
+.major_header h6 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.major_summary p {
+  font-size: 1.8rem;
+}
