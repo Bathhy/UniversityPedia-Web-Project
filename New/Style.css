@@ -18,11 +18,6 @@ ul {
   list-style: none;
 }
 
-/* .grid-1x2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-} */
-
 /* START */
 
 /* Header */
@@ -116,6 +111,7 @@ ul {
 }
 .header_right a:hover {
   cursor: pointer;
+  text-decoration: underline;
   transition: all 0.2s;
 }
 .header_right i:hover {
@@ -124,6 +120,9 @@ ul {
 }
 /* Header End */
 /* Section 1 Start */
+.bg_and_moti {
+  padding-top: 2rem;
+}
 .section1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* grid 1x2 */
