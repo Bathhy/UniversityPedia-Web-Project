@@ -17,3 +17,17 @@
   margin-top: 80px;
   margin-left: 7%;
 }
+.p-section1 .bold-p{
+  font-weight: bold;
+  font-size: 35px;
+}
+.box{
+  margin-bottom: 80px;
+}
+.check-question{
+  font-size: 25px;
+}
+.section-checkbox{
+  margin-left: 7%;
+  margin-bottom: 30px;
+}
