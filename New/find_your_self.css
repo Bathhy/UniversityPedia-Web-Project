@@ -22,12 +22,93 @@
   font-size: 35px;
 }
 .box{
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 .check-question{
-  font-size: 25px;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
-.section-checkbox{
-  margin-left: 7%;
+/* .section-checkbox{
+  margin-left: 7%; 
   margin-bottom: 30px;
+} */
+.flex-box-m{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:350px;
+  margin-left: 7%; 
+}
+.main-checkbox .section-checkbox input{
+  
+}
+.section-checkbox label{
+  margin-left: 10px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.button-div button{
+  background-color: #4169E1;
+  border: none;
+  width: 70px;
+  height: 60px;
+  color: white;
+  font-size: 15px;
+  border-radius: 15px;
+}
+.p-recommend h1{
+  color: #4169E1;
+
+}
+.recommend .flex-box-m{
+
+}
+.infor{
+  background-color: #4169E1;
+  width: 360px;
+  height: 180px;
+  border-radius: 10px;
+}
+.img-infor a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.infor .infor-p a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+.img-infor i{
+  font-size: 20px;
+}
+.img-infor{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 320px;
+  
+}
+.infor{
+  display: flex;
+  flex-direction: column;
+}
+.infor-p{
+  margin-left: 15px;
+}
+.grid-m{
+  display: grid;
+  grid-template-columns: repeat(4,360px);
+  /* grid-template-rows: repeat(2,1fr); */
+  gap: 70px ;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+.p-recommend h1{
+  font-size: 22px;
+  margin-left: 7%;
+  margin-top: 5%;
 }
