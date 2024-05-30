@@ -1,0 +1,33 @@
+
+.p-section1 p{
+  font-size: 25px;
+  display: block;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-box{
+  height: 350px;
+  width: 1600px;
+  background-color: #4169E1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-left: 7%;
+}
+.p-section1 .bold-p{
+  font-weight: bold;
+  font-size: 35px;
+}
+.box{
+  margin-bottom: 80px;
+}
+.check-question{
+  font-size: 25px;
+}
+.section-checkbox{
+  margin-left: 7%;
+  margin-bottom: 30px;
+}
