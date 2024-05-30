@@ -1,4 +1,4 @@
-
+/* section1 */
 .p-section1 p{
   font-size: 25px;
   display: block;
@@ -6,6 +6,7 @@
   margin-bottom: 20px;
   text-align: center;
 }
+
 .section-box{
   height: 350px;
   width: 1600px;
@@ -14,7 +15,7 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  margin-top: 80px;
+  margin-top: 120px;
   margin-left: 7%;
 }
 .p-section1 .bold-p{
@@ -24,9 +25,22 @@
 .box{
   margin-bottom: 50px;
 }
+/* section2 */
 .check-question{
   font-size: 30px;
-  margin-bottom: 15px;
+  padding-bottom: 30px;
+  padding-top: 30px; 
+}
+.checkbox{
+  height: 1200px;
+}
+.section-checkbox input{
+  width: 40px;
+  height: 40px;
+  background-color:#4169E1;
+}
+.section-box label{
+  margin-bottom: -100px;
 }
 /* .section-checkbox{
   margin-left: 7%; 
@@ -35,13 +49,11 @@
 .flex-box-m{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height:350px;
-  margin-left: 7%; 
+  justify-content: space-around;
+  height:1100px;
+  margin-left: 10%; 
 }
-.main-checkbox .section-checkbox input{
-  
-}
+
 .section-checkbox label{
   margin-left: 10px;
   font-size: 25px;
@@ -50,23 +62,40 @@
 .button-div button{
   background-color: #4169E1;
   border: none;
-  width: 70px;
+  width: 120px;
   height: 60px;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 15px;
+  font-weight: bold;
+  
 }
-.p-recommend h1{
+.button-div{
+  display: flex;
+  justify-content: end;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+.section-checkbox{
+  display: grid;
+  grid-template-columns: repeat(5,250px);
+  gap: 40px;
+}
+/* section3 */
+.p-recommend p{
   color: #4169E1;
-
+  font-size: 30px;
+  font-weight: bold;
 }
-.recommend .flex-box-m{
+.p-recommend{
+  padding-top: 40px;
+  padding-bottom: 40px;
 
 }
 .infor{
   background-color: #4169E1;
-  width: 360px;
-  height: 180px;
+  width: 390px;
+  height: 200px;
   border-radius: 10px;
 }
 .img-infor a{
@@ -83,13 +112,14 @@
 }
 .img-infor i{
   font-size: 20px;
+  padding-right: 18px;
 }
 .img-infor{
   display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 320px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 400px;
   
 }
 .infor{
@@ -104,11 +134,9 @@
   grid-template-columns: repeat(4,360px);
   /* grid-template-rows: repeat(2,1fr); */
   gap: 70px ;
-  margin-left: 7%;
-  margin-top: 5%;
+  /* margin-left: 7%;
+  margin-top: 5%; */
 }
-.p-recommend h1{
-  font-size: 22px;
+.recommend{
   margin-left: 7%;
-  margin-top: 5%;
 }
