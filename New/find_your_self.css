@@ -1,4 +1,8 @@
 /* section1 */
+body
+{
+  overflow-x: scroll;
+}
 .p-section1 p{
   font-size: 25px;
   display: block;
@@ -7,18 +11,18 @@
   text-align: center;
 }
 
-.section-box{
+.box{
   height: 350px;
-  width: 1600px;
+  width:87%;
   background-color: #4169E1;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns:2fr 1fr;
   align-items: center;
   border-radius: 10px;
   margin-top: 120px;
   margin-left: 7%;
 }
-.p-section1 .bold-p{
+.box .bold-p{
   font-weight: bold;
   font-size: 35px;
 }
@@ -31,9 +35,9 @@
   padding-bottom: 30px;
   padding-top: 30px; 
 }
-.checkbox{
+/* .checkbox{
   height: 1200px;
-}
+} */
 .section-checkbox input{
   width: 40px;
   height: 40px;
@@ -50,7 +54,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height:1100px;
+  height:1200px;
   margin-left: 10%; 
 }
 
@@ -104,11 +108,17 @@
   font-size: 20px;
   font-weight: bold;
 }
+.img-infor a:hover,.img-infor i:hover{
+  text-decoration: underline;
+}
 .infor .infor-p a{
   color: white;
   text-decoration: none;
   font-size: 15px;
   
+}
+.infor .infor-p a:hover{
+  text-decoration:underline;
 }
 .img-infor i{
   font-size: 20px;
@@ -139,4 +149,97 @@
 }
 .recommend{
   margin-left: 7%;
+}
+
+/* .box,.checkbox{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+} */
+
+@media (max-width:1400px){
+  
+  .box .bold-p{
+    font-size: 25px;
+  }
+  .box p{
+    font-size: 18px;
+  }
+  .box img{
+    width: 250px;
+    height: 180px;
+  }
+  .box{
+    height: 250px;
+  }
+  .section-checkbox{
+    grid-template-columns: repeat(4,250px);
+    
+  }
+  .section-checkbox label{
+    font-size: 20px;
+  }
+  .section-checkbox input{
+    width: 35px;
+    height: 35px;
+  }
+  .check-question{
+    font-size: 25px;
+  }
+  .grid-m{
+    grid-template-columns: repeat(3,360px);
+  }
+}
+@media (max-width:900px){
+  
+  .box .bold-p{
+    font-size: 18px;
+  }
+  .box p{
+    font-size: 15px;
+  }
+  .box img{
+    width: 200px;
+    height: 150px;
+  }
+  .box{
+    height: 200px;
+  }
+  .section-checkbox{
+    grid-template-columns: repeat(3,250px);
+    
+  }
+  .section-checkbox label{
+    font-size: 17px;
+  }
+  .section-checkbox input{
+    width: 30px;
+    height: 30px;
+  }
+  .check-question{
+    font-size: 23px;
+  }
+  .grid-m{
+    grid-template-columns: repeat(2,360px);
+  }
+  
+}
+@media (max-width:650px){
+  
+  .box .bold-p{
+    font-size: 15px;
+  }
+  .box p{
+    font-size: 10px;
+  }
+  .box img{
+    width: 150px;
+    height: 100px;
+  }
+  .box{
+    height: 200px;
+  }
+
 }
