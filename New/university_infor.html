@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="Style.css" />
     <link rel="stylesheet" href="Style2.css" />
     <link rel="stylesheet" href="Style3.css" />
+    <link rel="stylesheet" href="/New/university_infor.css">
 
     <script
       src="https://kit.fontawesome.com/3f0d0cbaf7.js"
@@ -55,13 +56,40 @@
         </div>
       </div>
     </header>
+
+    <!-- main-section -->
     <main>
+      <!-- slider-section -->
       <section class="slider">
+        <div class="slider-container" style="display: block;">
+          <img src="/New/src/image/slider1.jpg" alt="">
+        </div>
         <div class="slider-container">
-          <img src="/image/slider1.jpg" alt="">
+          <img src="/New/src/image/slider2.jpg" alt="">
+        </div>
+        <div class="slider-container">
+          <img src="/New/src/image/slider3.jpg" alt="">
+        </div>
+        <div class="slider-container">
+          <img src="/New/src/image/slider4.jpg" alt="">
+        </div>
+        <div class="slider-container">
+          <img src="/New/src/image/slider5.jpg" alt="">
+        </div>
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+        <div class="dotbox">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
         </div>
       </section>
+      <!-- end-of-slider-section -->
     </main>
+
+
     <footer class="footer">
       <div class="footer_top">
         <div class="footer_left">
@@ -128,4 +156,5 @@
     </footer>
     <!-- footer end -->
   </body>
+  <script src="/New/university_infor.js"></script>
 </html>
