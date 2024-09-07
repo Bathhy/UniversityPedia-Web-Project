@@ -1,3 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 /*Footer.css*/
 .footer{
   background-color: #4169E1;
@@ -219,7 +229,7 @@ p{
   color: white;
   max-width: 1100px;
   margin: 0px auto;
-  margin-bottom: 83%;
+  margin-bottom: 50%;
   
 }
 
@@ -251,4 +261,76 @@ p{
   margin: 10px 0 0;
   line-height: 1.6;
   font-size: 1.3rem;
+}
+/* background */
+.Information1 {
+  position: relative;
+  width: 80%; /* Increase the width to cover more space */
+  max-width: 1400px; /* Limit the maximum width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto; /* Center the container */
+  padding: 40px 20px; /* Add padding */
+  top: -550px; /* Move the content up */
+  background-color: rgb(170, 156, 156);
+  
+}
+
+.cb1 {
+  position: absolute;
+  top: -70px; /* Move the title closer to the top */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(98, 98, 248);
+  border: 2px solid #cccccc;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px; /* Increase font size */
+  width: 100%;
+  max-width: 600px; /* Keep it proportional */
+}
+.cb1 p{
+   font-size: 30px;
+   color: yellow;
+}
+
+.left-bs, .right-bs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  width: 200;
+  height: 40;
+}
+
+.bx {
+  background-color: #438cd4;
+  color: white;
+  padding: 20px; /* Increase padding for larger buttons */
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px; /* Increase font size */
+  font-weight: bold;
+  border-radius: 10px;
+  width: 200px; /* Make buttons wider */
+}
+
+.bottom-bx {
+  position: absolute;
+  bottom: -60px; /* Move the Applications box up */
+  left: 50%;
+  transform: translateX(-50%);
+ 
+}
+
+.bottom-bx .bx {
+ 
+  height: 40px;
+  width: 450px; /* Increase the width of the bottom button */
+  background-color: #438cd4;
+  font-size: 27px;
 }
