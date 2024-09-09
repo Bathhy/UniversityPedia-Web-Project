@@ -4,6 +4,7 @@
 }
 .menu{
   margin-left: 100px;
+  width: 10%;
 }
 .menu ul li{
   font-size: 2.2rem;
@@ -44,8 +45,9 @@
   font-weight: bold;
   color: #fff;
   display: flex;
+  height: 200px;
   align-items: center;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .collabsible-main{
   display: flex;
@@ -101,4 +103,52 @@
   font-weight: bold;
   list-style-type: circle;
   margin-left: 30px;
+}
+
+/* Extra Small Devices (Phones, 0px - 575px) */
+@media (max-width: 575.98px) { 
+  .collapsible {
+    width: 90%;
+    margin-left: 10px;
+  }
+}
+
+/* Small Devices (Landscape Phones, 576px - 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .collapsible {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Medium Devices (Tablets, 768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .collapsible {
+    width: 80%;
+    margin-left: 0;
+  }
+}
+
+/* Large Devices (Desktops, 992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .collapsible {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+/* Extra Large Devices (1200px - 1599px) */
+@media (min-width: 1200px) and (max-width: 1599.98px) { 
+  .collapsible {
+    width: 1000px;
+    background-color: #4169e1;
+  }
+}
+
+/* Ultra Large Devices (Monitors, 1600px and up) */
+@media (min-width: 1600px) { 
+  .collapsible {
+    width: 1200px;
+    background-color: #4169e1;
+  }
 }
