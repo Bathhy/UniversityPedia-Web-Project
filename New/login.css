@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.welcome-section {
+  background-color: #446fc7;
+  color: white;
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.university-logo {
+  padding-left: 8px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.sign-in-section {
+  width: 50%;
+  background-color: #6996d3;
+  padding: 40px;
+}
+
+.sign-in-section h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.sign-in-section label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.sign-in-section input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5979b5;
+  color: white;
+}
+
+.sign-in-section input::placeholder {
+  color: #c7d2e8;
+}
+
+.container-checkbox {
+  display: flex;
+  justify-content: space-around;
+}
+.container-checkbox input[type=checkbox] {
+  
+  width: 25px;
+}
+.container-checkbox p{
+  display: inline-block;
+} 
+
+.sign-in-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2d5fcf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sign-up-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sign-up-link a {
+  color: white;
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img { 
+  width: 24px;
+  height: 24px;
+}
